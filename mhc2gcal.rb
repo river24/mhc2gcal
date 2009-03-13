@@ -116,7 +116,7 @@ def string_to_date2(s1, s2)
   return item
 end
 
-MHC2GCAL_VERSION = '0.2.1'
+MHC2GCAL_VERSION = '0.3.0'
 gcal_yaml = File.expand_path('.gcal', File.dirname($0))
 date_from   = date_to = MhcDate .new
 category   = '!Holiday'
