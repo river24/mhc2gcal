@@ -1,0 +1,8 @@
+# google calendar Feed URL
+gcal_feed: http://www.google.com/calendar/feeds/XXXXXXXXXXXXXXXX@group.calendar.google.com/private/full
+# email address
+gcal_mail: XXXXXXXXXX@gmail.com
+# password
+gcal_pass: XXXXXXX
+# sync mode (delete or keep)
+gcal_mode: keep
