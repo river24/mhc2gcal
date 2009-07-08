@@ -116,8 +116,8 @@ def string_to_date2(s1, s2)
   return item
 end
 
-MHC2GCAL_VERSION = '0.3.0'
-gcal_yaml = File.expand_path('.gcal', File.dirname($0))
+MHC2GCAL_VERSION = '0.4.0'
+gcal_yaml = File.expand_path('gcal.yaml', File.dirname($0))
 date_from   = date_to = MhcDate .new
 category   = '!Holiday'
 secret     = 'Private'
@@ -291,8 +291,6 @@ db .search(date_from, date_to, category) .each{|date, mevs|
 
 gcal_gevs.uniq
 mhc_gevs.uniq
-
-
 
 # compare and delete EVENTs only in Google Calendar
 gcal_gevs.each{|gcal_gev|
